@@ -1415,21 +1415,25 @@ responsive
 
 @media (max-width: 992px) {
   .main-banner {
-    padding-top: 196px;
+    padding-top: 100px;
   }
+
   .main-banner .left-content {
     margin-right: 0px;
     text-align: center;
     margin-bottom: 45px;
   }
+
   .main-banner:after {
     top: 76px;
     z-index: -1;
   }
+
   .main-banner .left-content form,
   .main-banner .left-content form input {
     width: 100%!important;
   }
+  
   #about {
     margin-top: 0px;
   }
@@ -1448,8 +1452,7 @@ responsive
     text-align: center;
   }
   .about-us .services .item  {
-    background: rgb(255,77,30);
-    background: linear-gradient(105deg, rgba(255,77,30,1) 0%, rgba(255,44,109,1) 100%);
+    background:#07a3f3 ;
     padding: 30px;
     border-radius: 20px;
     display: inline-block;
